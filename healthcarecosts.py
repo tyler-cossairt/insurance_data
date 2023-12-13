@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import openpyxl
 
 # Load the data
 df = pd.read_excel('insurance.xlsx')
